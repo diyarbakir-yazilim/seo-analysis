@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕵️‍♂️ SEO Optimizer
 
-## Getting Started
+SEO Optimizer is a modern web application built with **Next.js** and **Puppeteer** that allows users to analyze any public website’s SEO health, content structure, technical attributes, performance, business info, social presence, and more. It provides a detailed breakdown in a clean, tabbed interface — including visual previews and metadata analysis.
 
-First, run the development server:
+![Screenshot - Hero](public/images/1.png)
+![Screenshot - Hero](public/images/2.png)
+![Screenshot - Hero](public/images/3.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🌐 Analyze any URL for SEO readiness
+- 📊 SEO Score Overview
+- 📄 Meta Tags, Keywords, OpenGraph & Twitter Cards
+- 🏗️ Content hierarchy (H1–H6), word counts, readability metrics
+- 🛠️ Technical insights (language, charset, SSL, redirects, etc.)
+- 💻 Technology stack detection (React, Vue, GA, etc.)
+- 📱 Mobile optimization check
+- 📷 Full-page screenshot capture
+- 🔍 Social links, contact info, business structured data
+- ⚡ Performance metrics via Puppeteer
+- 📁 Tabbed layout for easy exploration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+| SEO Overview | Performance Tab | Screenshot View |
+|--------------|------------------|------------------|
+| ![Overview](/public/images/1.png) | ![Performance](/public/images/2.png) | ![Screenshot](/public/images/3.png) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧑‍💻 Tech Stack
 
-## Deploy on Vercel
+- **Frontend:** React (with Next.js App Router)
+- **UI Components:** ShadCN + Radix UI
+- **Form Handling:** `react-hook-form` + Zod validation
+- **Web Scraping:** Puppeteer (Headless Chrome)
+- **Type System:** TypeScript
+- **SEO Evaluation Logic:** Custom DOM evaluation inside browser context
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/diyarbakir-yazilim/seo-analysis.git
+   cd seo-analysis
